@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python-ddd"
+name = "Engagement-Manager-Backend-V2"
 version = "0.1.0"
 description = ""
-authors = ["Przemysław Górecki <przemyslaw.gorecki@gmail.com>"]
+authors = ["Ian DesJardins <ian.d.desjardins@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
@@ -29,6 +29,7 @@ httpx = "^0.23.1"
 requests = "^2.28.1"
 bcrypt = "^4.0.1"
 mypy = "^1.4.1"
+cython = "<=0.29.36"
 
 [tool.poetry.dev-dependencies]
 poethepoet = "^0.10.0"
